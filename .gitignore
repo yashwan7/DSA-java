@@ -23,3 +23,13 @@
 hs_err_pid*
 replay_pid*
 .vscode/
+.idea/
+.vscode/
+out/
+*.iml
+.DS_Store
+.idea/
+.vscode/
+out/
+*.iml
+.DS_Store
