@@ -1,0 +1,18 @@
+class Solution {
+    public String interpret(String command) {
+        char a [] = command.toCharArray();
+        StringBuilder ans= new StringBuilder();
+        for (int i = 0 ; i < a.length; i++)
+        {  if (a [i]== 'G')
+            { ans.append("G") ;}
+            else if (a[i] == '(' && a[i+1]==')')
+            {ans.append("o");
+                i++;
+            }
+            else if ( a[i]=='(' && a[i+1]=='a' && a[i+2]=='l' && a[i+3]==')' )     {
+            ans.append("al");
+            i += 3; }. // to skip unwanted iterations like (al) , use nhi ki to bhi teek hai  
+        }
+        return ans.toString();
+    } 
+}
