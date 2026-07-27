@@ -20,6 +20,7 @@ public class findduplicateinarray {
                 i++;
             } 
         } 
+        
         return -1; 
     } // for returning number which is repeated. 
           
