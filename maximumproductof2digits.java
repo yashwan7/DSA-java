@@ -39,6 +39,7 @@ return first * second; } }
  // second = Math.max(second, digits.get(j) ); 
 //}
 
+
 //return ans * second;
 //}}
 

@@ -1,11 +1,10 @@
-public class lc1464maxproductof2eleminarray {
+public class lc1464maxproductoftwoeleminanarrray {
+
     public int maxProduct(int[] nums) {
      
       int first = Integer.MIN_VALUE;
       int second = Integer.MIN_VALUE;
 
-     int min1 = Integer.MAX_VALUE;
-      int min2 = Integer.MAX_VALUE;
         for (int i = 0; i < nums.length; i++) {
   // 3 largest numbers
             if (nums[i] >= first) {
