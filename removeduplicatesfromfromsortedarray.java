@@ -1,19 +1,23 @@
 public class removeduplicatesfromfromsortedarray {
 
-    public int removeDuplicates(int[] nums) {
-     
-    
-        int i = 0;
-
-        for (int j = 1; j < nums.length; j++) {
-
-            if (nums[i] != nums[j]) {
-                i++;
-                nums[i] = nums[j];
+ class Solution {
+    public String removeOuterParentheses(String s) {
+        StringBuilder ans = new StringBuilder();
+        int depth = 0;
+        for (char ch : s.toCharArray()) {
+            if (ch == '(') {
+                if (depth > 0) {
+                    ans.append(ch);
+                }
+                depth++;
+            } else {
+                depth--;
+                if (depth > 0) {
+                    ans.append(ch);
+                }
             }
         }
-
-        return i + 1;
+        return ans.toString();
     }
-
+}
 }
