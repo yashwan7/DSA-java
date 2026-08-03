@@ -27,6 +27,3 @@ class Solution {
 }
 
 }
-git status 
-git add .
-git commit -m "Added solution for maximizing pair strength using GCD in Java."
