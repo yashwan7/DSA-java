@@ -44,3 +44,6 @@ class Solution {
     }
 }    
 }
+git status
+git add lc75.java
+git commit -m "Implemented Dutch National Flag Algorithm for sorting colors in lc75.java"
